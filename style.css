@@ -1,0 +1,120 @@
+body{
+    background-color: #010914 ;
+    
+}
+.container_main{
+    display:flex;
+}
+
+
+/*  ----- navigation ----- */
+.logo{
+    height: auto;
+    width: 130px;
+}
+
+
+.navbar{
+    flex-basis: 10%;
+    text-align: justify;
+}
+
+.textnav{
+    list-style: none;
+    color: white;
+    font-family: 'Josefin Sans';
+    font-size: 20px;
+    text-decoration: none;
+    
+}
+.textnav:hover{
+    background-color: #720910;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+/* ----- content styling ----- */
+
+
+.content{
+    flex-basis: 90%;
+    
+
+}
+.grid{
+    display:grid;
+    
+
+    grid-template-rows: repeat(2, 50%);
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 1em;
+}
+
+
+/* ----- content styling ----- */
+
+
+.img1{
+    background-image: lightblue;
+
+    grid-column-start: 1;
+    grid-column-end: 7;
+}
+.wakanda{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.wakanda:hover{
+    opacity: 0.6;
+}
+span{
+    font-family: 'Josefin Sans';
+    color: white;
+}
+.category{
+    background-color: #021127;
+    height: 100px;
+    width: 200px;
+    font-family: 'Josefin Sans';
+    border-radius: 10px;
+}
+
+
+.gif{
+    opacity: 0.05;
+    height: 100px;
+    width: 200px;
+    border-radius: 10px;
+    transition: transform .2s;
+}
+.gif:hover{
+    opacity: 1;
+    transform: scale(1.5); 
+    
+}
+
+/*  ----- disney html ----- */
+.movies{
+    background-color: #021127;
+    height: 200px;
+    width: 150px;
+    font-family: 'Josefin Sans';
+    border-radius: 10px;
+}
+.img{
+    height: 200px;
+    width: 150px;
+    border-radius: 10px;
+    transition: transform .2s;
+}
+.img:hover{
+    transform: scale(1.5); 
+}
+.waltdisney{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    opacity: 0.7;
+}
