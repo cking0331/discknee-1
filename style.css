@@ -12,7 +12,10 @@ body{
 .container_main{
     display:flex;
 }
-
+.disneyfont {
+    color: white;
+    margin-top: 10px;
+}
 
 /*  ----- navigation ----- */
 .logo{
@@ -46,6 +49,7 @@ body{
 
 .content{
     flex-basis: 90%;
+    width: 100%;
     
 
 }
@@ -90,15 +94,22 @@ span{
 
 
 .gif{
-    opacity: 0.05;
+    opacity: 0.50;
     height: 100px;
-    width: 200px;
+    width: 100%;
     border-radius: 10px;
     transition: transform .2s;
 }
+.gif_div  {
+    display: grid;
+    margin-top: 30px;
+    grid-template-columns: repeat(6, 1fr);
+    grid-column-gap: 40px;
+    justify-content: space-between;
+}
 .gif:hover{
     opacity: 1;
-    transform: scale(1.5); 
+    transform: scale(1.2); 
     
 }
 
