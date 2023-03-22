@@ -1,3 +1,10 @@
+/* color pallete
+03224C
+042B62
+021127
+010914
+720910 */
+
 body{
     background-color: #010914 ;
     
@@ -108,9 +115,13 @@ span{
     width: 150px;
     border-radius: 10px;
     transition: transform .2s;
+    margin-top: 30px;
 }
 .img:hover{
-    transform: scale(1.5); 
+    transform: scale(1.1); 
+}
+.img:active {
+    opacity: 0.4;
 }
 .waltdisney{
     width: 100%;
