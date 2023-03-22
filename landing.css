@@ -1,0 +1,43 @@
+body{
+    background-color: #010914;
+}
+
+.text1{
+    font-family: 'Josefin Sans';
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+.text2{
+    font-family: 'Josefin Sans';
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+}
+
+/* --- flexbox --- */
+
+.main{
+    display: flex;
+    flex-flow: column;
+}
+.container_header{
+    flex-basis: 10%;
+    margin-top: 10px;
+}
+.container_main{
+    flex-basis: 90%;
+    align-self: center;
+    margin-top: 300px;
+}
+
+/* button style */
+
+.button1{
+    background-color: #042B62;
+    padding: 5px;
+}
+.button2{
+    background-color: #042B62;
+    padding: 15px 80px;
+}
