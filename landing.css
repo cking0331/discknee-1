@@ -11,8 +11,9 @@ body{
 }
 .text2{
     font-family: 'Josefin Sans';
-    font-size: 26px;
+    font-size: 28px;
     color: white;
+    font-weight: 800;
     text-decoration: none;
     text-align: center;
 }
@@ -23,9 +24,9 @@ body{
     display: flex;
     flex-flow: column;
     
-    background-image: url(images/bg1.png);
-    background-position:top;
-    background-repeat:repeat-x;
+    background-image: url(images/bg2.jpg);
+    
+    
 }
 .container_header{
     flex-basis: 10%;
@@ -35,16 +36,16 @@ body{
 .container_main{
     flex-basis: 90%;
     align-self: center;
-    margin-top: 200px;
-    padding-bottom:100px;;
+    margin-top: 250px;
+    padding-bottom:200px;
 }
 
 
 /* button style */
 
 .button1{
-    background-color: #042B62;
-    padding: 20px 10px;
+    background-color: #104ac7;
+    padding:15px 10px;
     text-align: center;
     border-radius: 8px;
     border-style: none;
@@ -57,7 +58,7 @@ body{
 }
 
 .button2{
-    background-color: #042B62;
+    background-color: #104ac7;
     padding: 15px 80px;
     border-radius: 8px;
     border-style: none;
@@ -77,17 +78,37 @@ body{
 .container3{
     display: flex;
     background-color: #021127;
+    border-top: #042B62 solid 2px;
+    border-bottom: #042B62 solid 2px;
+}
+.icon{
+    height: 50px;
+    width: 50px;
 }
 .sec1{
     flex-basis: 30%;
     text-align: center;
-    padding: 10px;
+    padding: 80px 25px;
 }
 .sec2{
     flex-basis: 40%;
     text-align: center;
+    padding: 80px 25px;
 }
 .sec3{
     flex-basis: 30%;
     text-align: center;
+    padding: 80px 25px;
+}
+.text3{
+    font-family: 'Josefin Sans';
+    font-size: 30px;
+    font: weight 400px;
+    color: white;
+}
+.text4{
+    font-family: 'Josefin Sans';
+    font-size: 20px;
+    font-weight: 200;
+    color: whitesmoke;
 }
