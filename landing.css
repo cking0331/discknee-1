@@ -1,5 +1,6 @@
 body{
     background-color: #010914;
+    margin: 0;
 }
 
 .text1{
@@ -10,9 +11,10 @@ body{
 }
 .text2{
     font-family: 'Josefin Sans';
-    font-size: 24px;
+    font-size: 26px;
     color: white;
     text-decoration: none;
+    text-align: center;
 }
 
 /* --- flexbox --- */
@@ -20,24 +22,72 @@ body{
 .main{
     display: flex;
     flex-flow: column;
+    
+    background-image: url(images/bg1.png);
+    background-position:top;
+    background-repeat:repeat-x;
 }
 .container_header{
     flex-basis: 10%;
-    margin-top: 10px;
+    padding-top: 20px;
+    padding-left: 10px;
 }
 .container_main{
     flex-basis: 90%;
     align-self: center;
-    margin-top: 300px;
+    margin-top: 200px;
+    padding-bottom:100px;;
 }
+
 
 /* button style */
 
 .button1{
     background-color: #042B62;
-    padding: 5px;
+    padding: 20px 10px;
+    text-align: center;
+    border-radius: 8px;
+    border-style: none;
+    
+    transition: transform .1s;
 }
+
+.button1:hover{
+    transform: scale(1.1);
+}
+
 .button2{
     background-color: #042B62;
     padding: 15px 80px;
+    border-radius: 8px;
+    border-style: none;
+    
+    transition: transform .7s;
+}
+
+.button2:hover{
+    transform: scale(1.1); 
+}
+
+.align_button{
+    text-align: center;
+}
+
+/* ---------- container 3 ---------- */
+.container3{
+    display: flex;
+    background-color: #021127;
+}
+.sec1{
+    flex-basis: 30%;
+    text-align: center;
+    padding: 10px;
+}
+.sec2{
+    flex-basis: 40%;
+    text-align: center;
+}
+.sec3{
+    flex-basis: 30%;
+    text-align: center;
 }
