@@ -109,6 +109,83 @@ body{
 .text4{
     font-family: 'Josefin Sans';
     font-size: 20px;
-    font-weight: 200;
+    font-weight: lighter;
     color: whitesmoke;
+}
+/* ---------- container 4 ---------- */
+.container4{
+    display: flex;
+    flex-direction: column;
+    background-color: #010914;
+    align-items: center;
+
+}
+.sec4{
+    text-align: center;
+    padding: 40px;
+}
+.text5{
+    font-family: 'Josefin Sans';
+    font-size: 34px;
+    font-weight: 100px;
+    color: white;
+}
+td{
+    font-family: 'Josefin Sans';
+    font-size: 18px;
+    font-weight: 100px;
+    color: white;
+    padding: 10px;
+    
+}
+.td_align{
+    text-align: center;
+}
+.text6{
+    font-family: 'Josefin Sans';
+    font-size: 18px;
+    font-weight: 400px;
+    color: #db0513;
+}
+.text7{
+    font-family: 'Josefin Sans';
+    font-size: 12px;
+    font-weight: lighter;
+    color: whitesmoke;
+}
+.sec_table{
+    padding: 10px;
+}
+.text8{
+    font-family: 'Josefin Sans';
+    font-size: 18px;
+    font-weight: lighter;
+    color: whitesmoke;
+}
+
+/* ---------- container 5 ---------- */
+
+.sec5{
+    text-align: center;
+    padding: 80px 40px 40px 40px;
+    
+}
+
+.sec_movies{
+    display: grid;
+    text-align: center;
+
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 10px;
+    padding: 40px;
+}
+.img_movies{
+    /* height: 200px;
+    width: 350px; */
+
+    min-height: 50px;
+    min-width: 150px;
+
+    border-radius: 10px;
 }
