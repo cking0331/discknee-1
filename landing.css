@@ -1,0 +1,314 @@
+body{
+    background-color: #010914;
+    margin: 0;
+}
+
+.text1{
+    font-family: 'Josefin Sans';
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+.text2{
+    font-family: 'Josefin Sans';
+    font-size: 28px;
+    color: white;
+    font-weight: 800;
+    text-decoration: none;
+    text-align: center;
+}
+.responsive{
+    width: 100%;
+    height: auto;
+}
+
+/* --- flexbox --- */
+
+.main{
+    display: flex;
+    flex-flow: column;
+    
+    background-image: url(images/bg2.jpg);
+    background-size: cover;
+    
+    
+}
+.container_header{
+    flex-basis: 10%;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.container_main{
+    flex-basis: 90%;
+    align-self: center;
+    margin-top: 250px;
+    padding-bottom:200px;
+}
+
+
+/* button style */
+
+.button1{
+    background-color: #104ac7;
+    padding:15px 10px;
+    text-align: center;
+    border-radius: 8px;
+    border-style: none;
+    
+    transition: transform .1s;
+}
+
+.button1:hover{
+    transform: scale(1.1);
+}
+
+.button2{
+    background-color: #104ac7;
+    padding: 15px 80px;
+    border-radius: 8px;
+    border-style: none;
+    
+    transition: transform .7s;
+}
+
+.button2:hover{
+    transform: scale(1.1); 
+}
+
+.align_button{
+    text-align: center;
+}
+
+/* ---------- container 3 ---------- */
+.container3{
+    display: flex;
+    background-color: #021127;
+    border-top: #042B62 solid 2px;
+    border-bottom: #042B62 solid 2px;
+}
+@media (max-width: 800px) {
+    .container3 {
+      flex-direction: column;
+    }
+  }
+
+.icon{
+    height: 50px;
+    width: 50px;
+}
+.sec1{
+    flex-basis: 30%;
+    text-align: center;
+    padding: 80px 25px;
+}
+.sec2{
+    flex-basis: 40%;
+    text-align: center;
+    padding: 80px 25px;
+}
+.sec3{
+    flex-basis: 30%;
+    text-align: center;
+    padding: 80px 25px;
+}
+.text3{
+    font-family: 'Josefin Sans';
+    font-size: 30px;
+    font: weight 400px;
+    color: white;
+}
+.text4{
+    font-family: 'Josefin Sans';
+    font-size: 20px;
+    font-weight: lighter;
+    color: whitesmoke;
+}
+/* ---------- container 4 ---------- */
+.container4{
+    display: flex;
+    flex-direction: column;
+    background-color: #010914;
+    align-items: center;
+
+}
+.sec4{
+    text-align: center;
+    padding: 40px;
+}
+.text5{
+    font-family: 'Josefin Sans';
+    font-size: 34px;
+    font-weight: 100px;
+    color: white;
+}
+td{
+    font-family: 'Josefin Sans';
+    font-size: 18px;
+    font-weight: 100px;
+    color: white;
+    padding: 20px;
+    
+}
+.td_align{
+    text-align: center;
+}
+.bgtd{
+    background-color: #021127;
+}
+.text6{
+    font-family: 'Josefin Sans';
+    font-size: 18px;
+    font-weight: 400px;
+    color: #db0513;
+}
+.text7{
+    font-family: 'Josefin Sans';
+    font-size: 12px;
+    font-weight: lighter;
+    color: whitesmoke;
+}
+.sec_table{
+    padding: 10px;
+    border-collapse: collapse;
+    
+}
+.text8{
+    font-family: 'Josefin Sans';
+    font-size: 18px;
+    font-weight: lighter;
+    color: whitesmoke;
+}
+
+/* ---------- container 5 ---------- */
+
+.sec5{
+    text-align: center;
+    padding: 80px 40px 40px 40px;
+    
+}
+
+.sec_movies{
+    display: grid;
+    text-align: center;
+
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 10px;
+    padding: 40px;
+}
+
+.img_movies{
+    width: 100%;
+    height: auto;
+
+    border-radius: 10px;
+}
+
+/* ---------- devices ---------- */
+
+.container6{
+    display: flex;
+    flex-direction: column;
+    background-color: #010914;
+    align-items: center;
+
+}
+.flexbox_container{
+    display: flex;
+
+    margin: 40px;
+}
+@media (max-width: 800px) 
+{
+    .flexbox_container {
+      flex-direction: column;
+    }
+  }
+.text9{
+    font-family: 'Josefin Sans';
+    font-size: 20px;
+    font-weight: 100px;
+    color: white;
+}
+.device_1{
+    flex-basis: 30%;
+    padding: 25px;
+    text-align: center;
+}
+.device_2{
+    flex-basis: 40%;
+    padding: 25px;
+    text-align: center;
+}
+.device_3{
+    flex-basis: 30%;
+    padding: 25px;
+    text-align: center;
+}
+@media (max-width: 800px) 
+{
+    .img_display {
+      display: none;
+  }
+}
+/* --------------- footer --------------- */
+
+/* ---- container 7 ---- */
+
+.container7{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 100px;
+}
+
+.sec7_1{
+    flex-basis: 50%;
+}
+.sec7_2{
+    flex-basis: 50%;
+    padding: 20px;
+}
+.links_container{
+    display: flex;
+}
+
+@media (max-width: 800px) 
+{
+    .links_container{
+        flex-direction: column;
+  }
+}
+
+.link_1{
+    flex-basis: 25%;
+    padding: 20px;
+}
+.link_2{
+    flex-basis: 25%;
+    padding: 20px;
+}
+.link_3{
+    flex-basis: 25%;
+    padding: 20px;
+}
+.link_4{
+    flex-basis: 25%;
+    padding: 20px;
+}
+.text10{
+    font-family: 'Josefin Sans';
+    font-size: 14px;
+    color: white;
+}
+.text11{
+    font-family: 'Josefin Sans';
+    font-size: 14px;
+    color: gray;
+    text-decoration: none;
+}
+.text12{
+    font-family: 'Josefin Sans';
+    font-size: 12px;
+    color: gray;
+    text-decoration: none;
+}
