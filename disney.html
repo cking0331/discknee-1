@@ -38,6 +38,31 @@
         .logopos{
             position: fixed;
         }
+        @media (max-width:800px)
+        {
+            .grid2{
+            display:grid;
+    
+
+            grid-template-rows: 50% repeat(4,1fr);
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 1em;
+            }
+            .container_main
+            {
+                display:flex;
+                flex-direction: column;
+            }
+            .img{
+            height: auto;
+            width: 100%;
+            border-radius: 10px;
+            transition: transform .2s;
+            margin-top: 10px;
+            }
+        }
+
+        
         
     </style>
 </head>
