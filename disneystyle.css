@@ -156,7 +156,7 @@ nav:hover{
     display:grid;
 
 
-    grid-template-rows: 50% 1fr 1fr;
+    grid-template-rows: 40% 1fr 1fr;
     grid-template-columns: repeat(6, 1fr);
     grid-gap: 1em;
 }
