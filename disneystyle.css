@@ -115,12 +115,7 @@ span{
 }
 
 /*  ----- disney html ----- */
-.movies{
-    height: 200px;
-    width: 150px;
-    font-family: 'Josefin Sans';
-    border-radius: 10px;
-}
+
 .img{
     height: auto;
     width: 100%;
@@ -155,7 +150,7 @@ nav{
 }
 nav:hover{
     left: 5px;
-    opacity:0.7;
+    opacity:100%;
 }
 .grid2{
     display:grid;
@@ -175,7 +170,7 @@ nav:hover{
 
 
       grid-template-rows: repeat(4,1fr);
-      grid-template-columns: repeat(2, 1fr);
+      grid-template-columns: repeat(3, 1fr);
       grid-gap: 1em;
     }
     .container_main
@@ -192,11 +187,8 @@ nav:hover{
     }
     .img1{
     display: none;
-}
-  .movies{
-    height: auto;
-    width: 100%;
-    font-family: 'Josefin Sans';
-    border-radius: 10px;
-  }
+    }
+    .logo{
+        display: none;
+    }
 }
