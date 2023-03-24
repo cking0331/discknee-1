@@ -130,7 +130,7 @@ span{
     opacity: 0.4;
 }
 .waltdisney{
-    width: 100%;
+    width: fit-content;
     height: 100%;
     border-radius: 10px;
     opacity: 0.7;
@@ -162,6 +162,11 @@ nav:hover{
 }
 .logopos{
     position: fixed;
+}
+
+.movies{
+    width: fit-content;
+    height: fit-content;
 }
 @media (max-width:800px)
 {
