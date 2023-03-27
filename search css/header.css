@@ -11,7 +11,7 @@
 .clear {
     display: flex;
     background-color: black;
-    padding-left: 150px ;
+    padding-left: 20px ;
     padding-top: 20px;
     padding-right: 50px;
     
@@ -45,6 +45,12 @@
     color: white;
        
 }
+.logo{
+    height: auto;
+    width: 130px;
+    top: 20px;
+}
+
 @media (max-width:800px) {
     .clear {
         padding-left: 20px;
