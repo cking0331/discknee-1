@@ -105,30 +105,11 @@ nav:hover{
 .logopos{
     position: fixed;
 }
-<<<<<<< HEAD
-.click {
-    display: flex;
-    flex: column;
-    justify-content: end;
-    align-items: end;
-    align-content: end;
-}
-.here {
-    position: absolute;
-    text-align: end;
-    justify-content: end;
-    align-items: end;
-    align-content: end;
-
-}
-
-=======
 
 .movies{
     width: fit-content;
     height: fit-content;
 }
->>>>>>> 42d02c830f7ba039f18c0a494da42c07e671923e
 @media (max-width:800px)
 {
     .container_main
