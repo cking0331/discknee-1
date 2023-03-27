@@ -1,0 +1,58 @@
+*{
+    border: none;
+    font-family: 'Josefin Sans';
+}
+
+.search {
+    background-color: black;
+    margin: 0;
+    flex: 1;
+}
+.clear {
+    display: flex;
+    background-color: black;
+    padding-left: 20px ;
+    padding-top: 20px;
+    padding-right: 50px;
+    
+}
+.btn {
+    height: 25px;
+    width: 25px;
+    margin: 0;
+    cursor: pointer;
+    padding-left: 10px;
+}
+.input {
+    height: 50px;
+    border-radius: 0px 10px 10px 0px;
+    padding: 0;
+    width: 100%;
+    flex: 1;
+    background-color: 010914;
+    color: white;
+    padding-left: 20px;
+    background-color: #042B62; 
+    
+}
+ .btn-bg {
+    border-radius: 10px 0px 0px 10px;
+    padding: 0;
+    background-color: #042B62; 
+} 
+
+.input::placeholder {
+    color: white;
+       
+}
+.logo{
+    height: auto;
+    width: 130px;
+    top: 20px;
+}
+
+@media (max-width:800px) {
+    .clear {
+        padding-left: 20px;
+    }
+}
