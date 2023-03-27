@@ -163,6 +163,22 @@ nav:hover{
 .logopos{
     position: fixed;
 }
+.click {
+    display: flex;
+    flex: column;
+    justify-content: end;
+    align-items: end;
+    align-content: end;
+}
+.here {
+    position: absolute;
+    text-align: end;
+    justify-content: end;
+    align-items: end;
+    align-content: end;
+
+}
+
 @media (max-width:800px)
 {
     .grid2{
