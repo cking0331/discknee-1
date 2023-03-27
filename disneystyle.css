@@ -53,15 +53,6 @@ body{
     
 
 }
-.grid{
-    display:grid;
-    
-
-    grid-template-rows: repeat(2, 50%);
-    grid-template-columns: repeat(6, 1fr);
-    grid-gap: 1em;
-}
-
 
 /* ----- content styling ----- */
 
@@ -71,47 +62,6 @@ body{
 
     grid-column-start: 1;
     grid-column-end: 7;
-}
-.wakanda{
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
-}
-.wakanda:hover{
-    opacity: 0.6;
-}
-span{
-    font-family: 'Josefin Sans';
-    color: white;
-}
-.category{
-    background-color: #021127;
-    height: 100px;
-    width: 200px;
-    font-family: 'Josefin Sans';
-    border-radius: 10px;
-}
-
-
-.gif{
-    opacity: 0.70;
-    height: 100px;
-    width: 100%;
-    border-radius: 10px;
-    transition: transform .2s;
-}
-.gif_div  {
-    display: grid;
-    margin-top: 30px;
-    grid-template-columns: repeat(6, 1fr);
-    grid-column-gap: 40px;
-    justify-content: space-between;
-    object-fit: contain;
-}
-.gif:hover{
-    opacity: 1;
-    transform: scale(1.2); 
-    
 }
 
 /*  ----- disney html ----- */
@@ -152,17 +102,10 @@ nav:hover{
     left: 5px;
     opacity:100%;
 }
-.grid2{
-    display:grid;
-
-
-    grid-template-rows: 50% 1fr 1fr;
-    grid-template-columns: repeat(6, 1fr);
-    grid-gap: 1em;
-}
 .logopos{
     position: fixed;
 }
+<<<<<<< HEAD
 .click {
     display: flex;
     flex: column;
@@ -179,16 +122,15 @@ nav:hover{
 
 }
 
+=======
+
+.movies{
+    width: fit-content;
+    height: fit-content;
+}
+>>>>>>> 42d02c830f7ba039f18c0a494da42c07e671923e
 @media (max-width:800px)
 {
-    .grid2{
-      display:grid;
-
-
-      grid-template-rows: repeat(4,1fr);
-      grid-template-columns: repeat(3, 1fr);
-      grid-gap: 1em;
-    }
     .container_main
     {
       display:flex;
@@ -206,5 +148,40 @@ nav:hover{
     }
     .logo{
         display: none;
+    }
+}
+
+/* additional (responsive) */
+
+.cat{
+    font-family: 'Josefin Sans';
+    color: white;
+    grid-column-start: 1;
+    grid-column-end: 7;
+    
+}
+
+.grid3{
+    display:grid;
+    
+    grid-template-rows: 23% repeat(10,auto);
+    grid-template-columns: repeat(6, 1fr);
+    row-gap: 10px;
+    column-gap: 10px;
+}
+@media (max-width:800px)
+{
+    .grid3{
+        display:grid;
+        
+        grid-template-rows: repeat(18,auto);
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 1em;
+    }
+    .cat{
+        font-family: 'Josefin Sans';
+        color: white;
+        grid-column-start: 1;
+        grid-column-end: 4;
     }
 }
