@@ -53,9 +53,9 @@ body {
   gap: 20px;
 
 }
-@media (max-width: 1000px) {
+@media (max-width: 800px) {
   .gif {
-    flex-direction: column;
+    flex-wrap: wrap;
   }
 }
 .change {
@@ -76,7 +76,17 @@ body {
   transform: scale(1.2);
   opacity: 1;
 }
-
+@media (max-width: 800px) {
+  .sidebar {
+    position: relative;
+    align-items: center;
+  }
+}
+@media (max-width: 800px) {
+  body {
+    padding-left: 0;
+  }
+}
 .black {
   background-color: black;
 }
